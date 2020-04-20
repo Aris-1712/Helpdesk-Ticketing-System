@@ -1,0 +1,19 @@
+table{
+    font-family:'Calibri';
+    font-size:15px;
+    background-color:#fff;
+    color:#333;
+}
+h1{
+    font-weight: bold;
+}
+.modal-header{
+    background-color:#333;
+    color:#fff;
+}
+
+
+
+    .modal-title {
+      
+        margin-right: auto}

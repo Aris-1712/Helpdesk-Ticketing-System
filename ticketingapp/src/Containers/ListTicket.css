@@ -1,0 +1,13 @@
+select {
+    width: 100%;
+}
+@media screen and (max-width: 772px) {
+    .test {
+   display: none;
+    }
+  }
+  @media screen and (min-width: 773px) {
+    .test2 {
+   display: none;
+    }
+  }     
