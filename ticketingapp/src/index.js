@@ -13,7 +13,7 @@ const devtool = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const store=createStore(Reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 const app=(
-    <Provider store={store}><BrowserRouter><App></App></BrowserRouter></Provider>
+    <Provider store={store}><BrowserRouter basename='/Helpdesk-Ticketing-System/'><App></App></BrowserRouter></Provider>
 )
 ReactDOM.render(app, document.getElementById('root'));
 registerServiceWorker();

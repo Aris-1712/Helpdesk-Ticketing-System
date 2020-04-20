@@ -1,4 +1,4 @@
-{
+{"homepage": "https://Aris1712.github.io/Helpdesk-Ticketing-System",
   "name": "ticketingapp",
   "version": "0.1.0",
   "private": true,
@@ -28,9 +28,14 @@
     "xlsx": "^0.15.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
