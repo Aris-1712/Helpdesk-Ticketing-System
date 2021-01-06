@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@progress/kendo-react-excel-export": "^3.11.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "create-react-class": "^15.6.3",
     "emailjs-com": "^2.4.1",
     "file-saver": "^2.0.2",
